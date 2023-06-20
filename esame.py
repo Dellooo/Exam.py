@@ -58,11 +58,6 @@ if len(Selected_data) > 2: #check che ci siano almeno 3 anni di dati
         return monthly_differences
 
 
-#except ValueError: 
-#raise ExamException('Errore, valori non validi per gli  anni') #gestisco l'errore se first_year o last_year non sono numeri interi
-#except Exception as e: # gestisco altri errori
- #   raise ExamException('Errore durante il calcolo della differenza media mensile')
-
 
 
     
